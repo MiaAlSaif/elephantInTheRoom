@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+
+* {
+  margin: 0 0 0 0 ;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('../assets/bg0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition:all 1s ;
+    -moz-transition:all 1s ;
+    -o-transition:all 1s;
+    -ms-transition:all 1s ;
+    transition:all 1s ;
+    z-index: -1;
+      }
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+
+.titleTypography{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0%;
+  text-align: left;
+  font-size: 4vw;
+  font-family: 'Biryani', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+left:5%;
+margin-top: 10%;
+  text-shadow: 2px 2px #ffadbc;
+  display: block;
+  color: #ffc1cc;
+  /* background: -webkit-linear-gradient(#ffadbc, #ffc1cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    letter-spacing: 4vw;
+  }
+
+
+.first, .second, .third, .fourth{
+text-align: center;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+transition: all 1s linear;
+
+}
+
+
+.first:hover, .second:hover, .third:hover, .fourth:hover{
+  cursor: text;
+background-color: #DD3300;
+  background: linear-gradient(#DD3300, #DD3300) no-repeat,
+             linear-gradient(#DD3300, #DD3300) no-repeat;
+ background-position:left bottom 1vw, left top 1vw;
+ background-size:94% 40%;
+
+}
+
+.elephantContainer{
+  position: absolute;
+  text-align: right;
+  width: 50%;
+  height: 100%;
+  top:0%;
+  right:0%;
+  left:50%;
+  object-fit: scale-down;
+  display: block;
+
+}
+
+.elephantContainer img {
+  height: 100vh;
+  width: 50vw;
+
+}
