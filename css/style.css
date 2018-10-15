@@ -45,9 +45,6 @@ margin-top: 10%;
   text-shadow: 2px 2px #ffadbc;
   display: block;
   color: #ffc1cc;
-  /* background: -webkit-linear-gradient(#ffadbc, #ffc1cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     letter-spacing: 4vw;
   }
 
@@ -82,7 +79,6 @@ background-color: #DD3300;
   left:50%;
   object-fit: scale-down;
   display: block;
-
 }
 
 .elephantContainer img {
