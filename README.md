@@ -13,6 +13,6 @@ Navigate to your local copy and open the `index.html` file in your browser.  Alt
 * CSS/CSS3
 * jQuery
 
-##Demo
+## Demo
 
 ![](demo.gif)
